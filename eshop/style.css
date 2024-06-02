@@ -1,0 +1,585 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+	background-color: #f9f1e3;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1450px;
+}
+
+
+
+/* Header */
+header{
+	height: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px ;
+	padding-right: 150px;	
+	margin-top: 25px;
+	background: white;
+	border: solid;
+	border-radius: 50px 50px 0px 0px;
+	border-color: #cccccc;
+	border-bottom: none;
+}
+
+.logo{
+    height: 100px;
+    width: auto; 
+	margin-left: 25px;
+	margin-top: 10px
+}
+
+.cart{
+	height: 42px;
+	width: 130px;
+	margin-top: 23px;
+	margin-right: 25px;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #95c773;
+	border: solid 2px;
+	border-radius: 15px;
+	border-color: #cccccc;
+}
+
+.cart:hover {
+	background-color: #95c773a2;
+	cursor: pointer;
+}
+
+/* Log-in - Register*/
+.logiregibtn{
+    height: 42px;
+	width: 130px;
+	margin-top: 23px;
+	margin-right: 25px;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #f9f1e3;
+	border: solid 2px;
+	border-radius: 15px;
+	border-color: #cccccc;
+}
+
+.btnhov:hover {
+	background-color: #f9f1e385;
+	cursor: pointer;
+}
+
+/* Log-in*/
+.loginbox{
+    height:30px;
+	width: 390px;
+	margin-top: 23px;
+	margin-right: 3px;
+	padding-left: 10px;
+	font-size: 14px;
+	border: solid 2px;
+	border-radius: 15px;
+	border-color: #cccccc;
+}
+
+.loginbtn{
+    height: 42px;
+	width: 390px;	
+	margin-top: 15px;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #f9f1e3;
+	border: solid 2px;
+	border-radius: 15px;
+	border-color: #cccccc;
+}
+
+.loginform{
+	margin-left: 345px;
+	margin-right: 340px;
+	border: solid;
+	padding: 30px;
+	border-radius: 15px;
+	border-color: #cccccc;
+}
+
+
+
+/* Register - About Us */
+.aboutus{
+	display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+	padding: 15px 215px 50px 150px;
+	border: solid;
+	border-top: none;	
+	background: white;
+	border-color: #cccccc;
+}
+
+
+/* About Us */
+.abtusH2{
+	text-align: left;
+	margin-bottom: 3px;
+	padding-left: 35px;
+	margin-right: 97px;
+}
+
+.abtusP{
+	text-align: center;
+	margin-right: 85px;
+	line-height: 23px;;
+	font-size: 16px;
+}
+
+.underline{
+	border-bottom:3px solid #cccccc; 
+	width:1120px; 
+	padding-bottom:5px;
+}
+
+
+
+/* Register */
+.regiH2{
+	text-align: center;
+	margin-bottom: 3px;
+}
+
+.regibox{
+    height: 30px;
+	margin-right: 3px;
+	margin-top: 15px;
+	padding-left: 10px;
+	font-size: 14px;
+	border: solid 2px;
+	border-radius: 15px;
+	border-color: #cccccc;
+}
+
+.regimail{
+	width: 390px;	
+}
+
+.regibtn{
+    height: 42px;
+	width: 390px;	
+	margin-top: 15px;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #f9f1e3;
+	border: solid 2px;
+	border-radius: 15px;
+	border-color: #cccccc;
+}
+
+.underline1{
+	border-bottom:3px solid #cccccc; 
+	width: 390px; 
+	padding-bottom:5px;
+}
+
+
+
+/* User Menu */
+.usermenu{
+	display: flex;
+    align-items: center;
+	padding: 50px 210px 50px;
+	height: 75px;
+	border: solid;
+	border-top: none;	
+	background: white;
+	border-color: #cccccc;
+}
+
+.btn{
+	height: 42px;
+	width: 130px;
+	margin-left: 8px;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #f9f1e3;
+	border: solid 2px;
+	border-radius: 15px;
+	border-color: #cccccc;
+}
+
+.username {
+	color: #c0ae90;
+	font-size: 25px; 
+}
+
+
+
+/* Add a recipe form */
+.bookform{	
+    padding: 50px 300px 100px;
+	border: solid;
+	border-top: none;	
+	background: white;
+	border-color: #cccccc;
+}
+
+.underline2{
+	border-bottom:3px solid #cccccc; 
+	width: 840px; 
+	padding-bottom:5px;
+}
+
+.txtarea{
+	resize: none;
+	margin-top: 10px;
+	padding: 10px;
+	font-size: 14px;
+	border: solid 2px;
+	border-radius: 15px;
+	border-color: #cccccc;
+}
+
+.bookbox{
+	height:30px;
+	width: 335px;
+	margin: 15px 3px 0px 70px;
+	padding-left: 10px;
+	font-size: 14px;
+	border: solid 2px;
+	border-radius: 15px;
+	border-color: #cccccc;
+}
+
+.bookbox1{
+	height:30px;
+	width: 335px;
+	margin: 15px 3px 0px 52px;
+	padding-left: 10px;
+	font-size: 14px;
+	border: solid 2px;
+	border-radius: 15px;
+	border-color: #cccccc;
+}
+
+.booktitle{
+	height:30px;
+	width: 335px;
+	margin: 15px 3px 0px 30px;
+	padding-left: 10px;
+	font-size: 14px;
+	border: solid 2px;
+	border-radius: 15px;
+	border-color: #cccccc;
+}
+
+input[type="file"]::file-selector-button {
+	height:30px;
+	width: 120px;
+	margin: 15px 3px 0px 17px;
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	background-color: #e7e6e6;
+	border: solid 2px;
+	border-radius: 15px;
+	border-color: #cccccc;
+}
+
+input[type="file"]::file-selector-button:hover {
+	background-color: #afafaf;
+	cursor: pointer;
+}
+
+input[type="file"]::target-text{
+	font-size: 25px;
+	font-family: "Montserrat", sans-serif;
+}
+
+.cancelbtn{
+	height: 42px;
+	width: 130px;
+	float: right;
+	margin-left: 8px;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #e7e6e6;
+	border: solid 2px;
+	border-radius: 15px;
+	border-color: #cccccc;
+}
+
+.uploadbtn{
+	height: 42px;
+	width: 130px;
+	float: right;
+	margin-left: 8px;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #f9f1e3;
+	border: solid 2px;
+	border-radius: 15px;
+	border-color: #cccccc;
+}
+
+
+
+/* Title */
+.title{
+	text-align: center;
+	width: 100%;
+	border: solid;
+	border-top: none;	
+	border-bottom: none;	
+	background: white;
+	border-color: #cccccc;
+	padding-top: 45px;
+}
+
+
+
+/* Main content - Recipes */
+main{
+	display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+	padding: 35px 220px 50px 150px;
+	border: solid;
+	border-top: none;
+	background: white;
+	border-color: #cccccc;
+}
+
+.bookimg{
+	padding-left: 50px;
+	padding-right: 50px;
+	width: 300px;
+	height: 200px;
+}
+
+.booktitle1{
+    font-size: 22px;
+	color: black;
+}
+
+.pricetitle{
+	font-size: 18px;
+	margin-top: 18px;
+}
+
+.authornm{
+	font-size: 13px;
+}
+
+.addcartbtn{
+	height: 42px;
+	width: 130px;
+	margin-top: 8px;
+	margin-right: 15px;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #95c773;
+	border: solid 2px;
+	border-radius: 15px;
+	border-color: #cccccc;
+	float: right;
+}
+
+.addcartbtn:hover{
+	background-color: #95c773a2;
+	cursor: pointer;
+}
+
+table {
+    margin-left: 57px;
+}
+
+tr {
+    margin: 30px;
+}
+
+td {
+    margin: 30px;
+    padding: 20px;
+}
+
+a:hover { 
+	text-decoration: none;
+}
+
+
+a:active { 
+	text-decoration: none; 
+}
+
+.norec{
+	padding-left: 35%;
+}
+
+
+
+/* Display */
+.container {
+	background-color: white;
+	padding: 20px;
+	margin: 0 auto; 
+	border: solid;	
+	border-color: #cccccc;
+}
+  
+.segment {
+	margin-top: 20px;
+	padding-left: 300px;
+	padding-right: 300px;
+}
+  
+.segment h3 {
+	margin-bottom: 10px;
+}
+  
+.segment p {
+	margin: 0;
+}
+
+.bookimg1{
+	padding-left: 50px;
+	padding-right: 50px;
+	width: 500px;
+	height: 400px;
+	margin-left: 420px;
+}
+
+.addcartbtn1{
+	height: 42px;
+	width: 180px;
+	margin-top: 25px;
+	margin-right: 45px;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #95c773;
+	border: solid 2px;
+	border-radius: 15px;
+	border-color: #cccccc;
+	float: right;
+}
+
+.pricetitle1{
+	font-size: 18px;
+	margin-top: 38px;
+	float: right;
+	margin-right: 15px;
+}
+
+.addcartbtn1:hover{
+	background-color: #95c773a2;
+	cursor: pointer;
+}
+
+
+
+/* Go Back */
+.backbtn{
+    height: 42px;
+	width: 130px;
+	margin-top: 23px;
+	margin-right: 25px;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #e7e6e6;
+	border: solid 2px;
+	border-radius: 15px;
+	border-color: #cccccc;
+}
+
+.btnhovcl:hover {
+	background-color: #e7e6e698;
+	cursor: pointer;
+}
+
+.back{
+	background-color: white;
+	border: solid;
+	border-color: #cccccc;
+	border-top: none;
+	border-bottom: none;
+	padding-left: 180px;
+	padding-bottom: 20px;
+}
+
+
+
+/* Footer */
+footer{
+	height: 150px;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 14%;
+	margin-bottom: 25px;
+	background: white;
+	border: solid;	
+	border-top: none;
+	border-radius: 0px 0px 50px 50px;
+	border-color: #cccccc;
+}
+
+
+
+/* Error messages*/
+#error{
+	color:  rgb(247, 48, 48);
+	text-align: center;
+}
+
+.nobooks{
+	text-align: center;
+	width: 100%;	
+	background: white;
+	border-color: #cccccc;
+	margin-left: 90px;
+}
+
+.logout{
+	height: 42px;
+	width: 130px;
+	margin-top: 23px;
+	margin-left: 500px;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #e7e6e6;
+	border: solid 2px;
+	border-radius: 15px;
+	border-color: #cccccc;
+}
+
+/* Cart*/
+.buy{
+	height: 42px;
+	width: 200px;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #95c773;
+	border: solid 2px;
+	border-radius: 15px;
+	border-color: #cccccc;
+	float: right;
+}
+
+.buy:hover{
+	background-color: #95c773a2;
+	cursor: pointer;
+}
+
+.containercart{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
