@@ -6,6 +6,7 @@ It allows users to browse, search, and purchase a variety of books easily. Desig
 Book Catalog: Browse a wide selection of books with detailed descriptions and prices.<br />
 Shopping Cart: Add books to your cart and review your selections before purchase.<br />
 User Registration and Login: Secure user authentication for personalized shopping experiences.<br />
+Add Books: The admin of the eshop can add or remove books on the website<br />
 
 -- Technologies Used --<br />
 PHP<br />
